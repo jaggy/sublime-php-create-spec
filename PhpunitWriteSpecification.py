@@ -1,10 +1,10 @@
 import sublime, sublime_plugin
 
-class WriteSpecificationCommand(sublime_plugin.TextCommand):
+class PhpunitWriteSpecificationCommand(sublime_plugin.TextCommand):
     def run(self, edit, specification):
         method_name = specification.replace(' ', '_')
 
-        method = """    /** @test **/
+        method = """/** @test **/
     function %s()
     {
     }
