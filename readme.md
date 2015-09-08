@@ -1,6 +1,6 @@
 # PHPUnit Create Specifications
 
-![](http://d.pr/i/eYSZ+ =400x)
+<img src="http://d.pr/i/eYSZ+" alt="Screencast" width="400" />
 
 When testing via PHPUnit or PHPSpec, some of us actually prefer snake case since it's a tad bit more readable. Then just annotate the method with `@test`.
 
